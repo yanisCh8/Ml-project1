@@ -11,6 +11,7 @@ $$ReLU(a) = \max(0, a)$$
 
 ### Softmax
 Used in the output layer to convert raw scores into a probability distribution across the 10 digit classes.
+
 $$A^{[2]}_i = \frac{e^{Z^{[2]}_i}}{\sum_{j=1}^{10} e^{Z^{[2]}_j}}$$
 
 ---
